@@ -71,7 +71,7 @@ def main(args: argparse.Namespace):
         model_config["checkpoint"],
         device="cuda",
         class_to_color_map=Path(
-            '/workspace/final_application/synthesis_in_style_lightning/stylegan_code_finder/handwriting_colors.json'),
+            '/Users/iqoocca/PycharmProjects/PythonProject/WPI_inpainting/final_application/synthesis_in_style_lightning/stylegan_code_finder/handwriting_colors.json'),
         original_config_path=Path(model_config["config_path"]),
         max_image_size=int(model_config.get("max_image_size", 0)),
         print_progress=False,
